@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">squadsapp</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="phonenumber">Phone number</string>
+    <string name="register">Register</string>
+    <string name="confirmpassword">Confirm password</string>
+    <string name="from">From:</string>
+    <string name="destination">Destination:</string>
+    <string name="owner">Owner:</string>
+    <string name="time">Time:</string>
+    <string name="seats">Seats:</string>
+    <string name="create">Create</string>
+    <string name="tripslist">Trips List</string>
+    <string name="addtrip">Add Trip</string>
+    <string name="applogo">AppLogo</string>
+    <string name="jointrip">Join Trip</string>
+    <string name="joinbtn">JoinBtn</string>
+    <string name="passenger">Passenger list</string>
+    <string name="lostyourpassword">Lost your password?</string>
+    <string name="donthaveanaccount">Don\'t have an account?</string>
+    <string name="createyourtrip">Create Your Trip</string>
+    <string name="showtext">...</string>
+    <string name="nameview">Name:</string>
+    <string name="phonenumberview">Phone number:</string>
+    <string name="mytrips">My Trips</string>
+    <string name="resetpassword">Reset password</string>
+    <string name="reset">Reset</string>
+    <string name="updateinformation">Update Information</string>
+    <string name="myprofile">My Profile</string>
+    <string name="changepassword">Change password</string>
+    <string name="newpassword">New password</string>
+    <string name="tripinfo">Trip Info</string>
+    <string name="logout">Logout</string>
+    <string name="displayname">Display name</string>
+    <string name="confirmnewpassword">Confirm new password</string>
+    <string name="confirm">Confirm</string>
+    <string name="date">Date:</string>
+    <string name="title_activity_test">test</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+
+</resources>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/maincolor">
+
+        <Button
+            android:id="@+id/btnHome"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="15dp"
+            android:gravity="center"
+            android:fontFamily="@font/roboto_medium"
+            android:textColor="@color/whiteforeground"
+            android:layout_alignParentStart="true"
+            android:textAllCaps="false"
+            android:textSize="17sp"
+            android:background="@drawable/home"/>
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="50dp"
+            android:layout_centerInParent="true"
+            android:fontFamily="@font/pacifico"
+            android:text="@string/mytrips"
+            android:gravity="center"
+            android:textColor="@color/whiteforeground"
+            android:textSize="25sp" />
+        <Button
+            android:id="@+id/btnProfile"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="15dp"
+            android:gravity="center"
+            android:fontFamily="@font/roboto_medium"
+            android:textColor="@color/whiteforeground"
+            android:layout_alignParentEnd="true"
+            android:textAllCaps="false"
+            android:textSize="17sp"
+            android:background="@drawable/profile"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ListView
+            android:id="@+id/lvCheckTrips"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </ListView>
+    </LinearLayout>
+</LinearLayout>
